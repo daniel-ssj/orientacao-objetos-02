@@ -55,7 +55,7 @@ public class RetanguloTeste {
     }
 
     @Test
-    public Double metodoGetAltura() {
+    public void metodoGetAltura() {
         Retangulo r = new Retangulo();
         r.setAltura(8.1);
         assertEquals(r.getAltura(), 8.1);
@@ -69,7 +69,7 @@ public class RetanguloTeste {
     }
 
     @Test
-    public Double metodoGetBase() {
+    public void metodoGetBase() {
         Retangulo r = new Retangulo();
         r.setBase(8.1);
         assertEquals(r.getBase(), 8.1);

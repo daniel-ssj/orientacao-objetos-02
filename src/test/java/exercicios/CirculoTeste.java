@@ -46,7 +46,7 @@ public class CirculoTeste {
     }
 
     @Test
-    public Double metodoGetRaio() {
+    public void metodoGetRaio() {
         Circulo c = new Circulo();
         c.setRaio(8.1);
         assertEquals(c.getRaio(), 8.1);
